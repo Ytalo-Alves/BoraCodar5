@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="shortcut icon"
+    href="/assets/calculadora.png"
+    type="image/x-png"
+    />
+    <script src="/index.js" defer type="module"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <img src="" alt="" />
+        <h1>Calculator</h1>
+      </div>
+      <div class="calculo">
+        <input type="text" class="inputValue" />
+        <div class="resultado">
+          <span> = </span>
+          <input type="text" class="inputResult" />
+        </div>
+      </div>
+
+      <div class="teclado">
+        <div class="row">
+          <button class="violet-text" id="reset">CE</button>
+          <button class="violet-button" id="clear">C</button>
+          <button class="violet-button">%</button>
+          <button class="violet-button">/</button>
+        </div>
+        <div class="row">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="violet-button operator">x</button>
+        </div>
+        <div class="row">
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="violet-button operator">-</button>
+        </div>
+        <div class="row">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="violet-button operator">+</button>
+        </div>
+        <div class="row">
+          <button class="violet-button">+/-</button>
+          <button>0</button>
+          <button>,</button>
+          <button class="violet-button-iqual">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

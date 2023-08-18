@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  border-radius: 15px;
+  background: black;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#app {
+  border-radius: 4.8rem;
+  width: 35.6rem;
+  height: 56.6rem;
+  background: #2d2a37;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.header h1 {
+  font-family: 'Anton';
+  color: #7F45E2;
+}
+
+.calculo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.inputValue {
+  width: 24.8rem;
+  height: 2.8rem;
+  background-color: #484554;
+  border-radius: 1.6rem;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  outline: none;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.inputResult {
+  width: 22.8rem;
+  height: 4rem;
+  display: flex;
+  background: #484554;
+  border: none;
+  border-radius: 1.6rem;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  outline: none;
+}
+
+.resultado span {
+  color: #975dfa;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  gap: 1rem;
+  place-items: center;
+  margin-top: 2.6rem;
+}
+
+.teclado button {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #2d2a37;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.06) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 4px 0px rgba(0, 0, 0, 0.26),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.04),
+    0px 11px 7px 0px rgba(0, 0, 0, 0.01);
+  color: white;
+  font-size: 2.4rem;
+}
+
+.violet-text {
+  color: #975dfa !important;
+}
+
+.violet-button {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0.01%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #462878 !important;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 4px 0px rgba(0, 0, 0, 0.26),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.04),
+    0px 11px 7px 0px rgba(0, 0, 0, 0.01) !important;
+}
+
+.violet-button-iqual {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #7f45e2 !important;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 4px 0px rgba(0, 0, 0, 0.26),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.04),
+    0px 11px 7px 0px rgba(0, 0, 0, 0.01) !important;
+}
